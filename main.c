@@ -1,13 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    /*  1)          */
+    /*--- 1 ---*/
 
-    /*      a)      */
+    //a)
     //CriaVetInt();
 
-    /*      b)      */
-    CriaVetFloat();
+    //b)
+    //CriaVetFloat();
+
+    /*--- 3 ---*/
+
+    //a)
+    Insersor();
+
+    //b)
+    Exclusor();
     return 0;
 }
 
