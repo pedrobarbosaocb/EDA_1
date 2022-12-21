@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    CriaVetInt();
+    /*  1)          */
+
+    /*      a)      */
+    //CriaVetInt();
+
+    /*      b)      */
+    CriaVetFloat();
     return 0;
 }
 
