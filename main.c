@@ -10,9 +10,9 @@ int main() {
     //CriaVetFloat();
 
     /*--- 3 ---*/
-
+    main_pvetcar();
     //a)
-    Insersor();
+    //Insersor();
 
     //b)
     //Exclusor();

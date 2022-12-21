@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1671643301 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\main.c
+1671662826 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\main.c
 	<stdio.h>
 
 1671633118 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\1.a_criavetint.c
@@ -12,7 +12,9 @@
 
 1671640594 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\3.b_exclusor.c
 
-1671661560 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\3.a_insersor.c
+1671662995 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\3.a_insersor.c
 	<stdio.h>
 	<stdlib.h>
+
+1671663642 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\3_pvetcar.c
 

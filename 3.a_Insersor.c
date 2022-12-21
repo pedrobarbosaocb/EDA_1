@@ -2,15 +2,13 @@
 #include <stdio.h>
 #include<stdlib.h>
 
-int Insersor() {
+char Insersor(int ptammax) {
     // declarando variaveis
     char c_inserido;
     char *pvetcar;
-    int ptammax, pqtde;
+    int pqtde;
 
-    // lendo tamanho que será alocaro para o ponteiro para char pvetcar
-    printf("Insira o tamanho do espaço de memoria a ser alocado:\n");
-    scanf("%d", &ptammax);
+
     pvetcar = (char*) malloc (ptammax * sizeof(char));
 
     // imprime tudo que já está dentro do pvetchar, ou seja, os lixos
@@ -32,7 +30,6 @@ int Insersor() {
         printf("{ %p }\n", &c_inserido);
     }
 
-
     printf("\n%p\n", &pvetcar);
 
     // mostra todos os endereços de memoria separados para cada item do pvetcar
@@ -47,9 +44,5 @@ int Insersor() {
     {
         printf("{ %c }\t", pvetcar[i]);
     }
-
-    // libera os espaços de memória
-    free(c_inserido);
-    free(pvetcar);
-    return 0;
+    return pvetcar;
 }
