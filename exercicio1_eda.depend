@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1671630383 source:c:\users\pedro\onedrive\documentos\eda\exercicio1_eda\1.a_criavetint.c
+	<stdio.h>
+
