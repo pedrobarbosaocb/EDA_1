@@ -34,6 +34,15 @@
 		<Unit filename="1.a_CriaVetInt.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="1.b_CriaVetFloat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="3.a_Insersor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="3.b_Exclusor.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

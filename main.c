@@ -15,7 +15,7 @@ int main() {
     Insersor();
 
     //b)
-    Exclusor();
+    //Exclusor();
     return 0;
 }
 
