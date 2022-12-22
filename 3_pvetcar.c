@@ -4,10 +4,17 @@
 
 int main_pvetcar() {
 
-    int ptammax = 5, pqtde = 0;
-    char pvetcar[ptammax];
+    int ptammax, pqtde = 0;
     char c_inserido;
     char c_removido = 'a';
+
+    printf("Qual o tamanho do vetor char?\n");
+    scanf("%d", &ptammax);
+    fflush(stdin);
+
+    char pvetcar[ptammax];
+
+    printf("\n\nInsira todos os caracteres do array\n");
 
     for(int i = 0; i<ptammax; i++){
         scanf("%c", &c_inserido);
@@ -15,15 +22,19 @@ int main_pvetcar() {
         fflush(stdin);
     }
 
+    printf("\nSeu vetor esta assim:\n");
     for(int i = 0; i<pqtde; i++){
         printf("{ %c }\t", pvetcar[i]);
     }
 
-    /*Exclusor(c_removido, &pvetcar, &pqtde);
+    printf("\n\nInsira o valor a ser removido:\n");
+    scanf("%c", &c_removido);
+    Exclusor(c_removido, &pvetcar[0], &pqtde);
 
-    for(int i = 0; i<=pqtde; i++){
+    printf("\nSeu vetor esta assim:\n");
+    for(int i = 0; i<pqtde; i++){
         printf("{ %c }\t", pvetcar[i]);
-    }*/
+    }
 }
 
 
