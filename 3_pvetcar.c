@@ -1,29 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int main_pvetcar() {
-    // declarando variaveis
-    char *pvetcar;
-    int ptammax;
 
-    // lendo tamanho que será alocaro para o ponteiro para char pvetcar
-    printf("Insira o tamanho do espaço de memoria a ser alocado:\n");
-    scanf("%d", &ptammax);
+    int ptammax = 5, pqtde = 0;
+    char pvetcar[ptammax];
+    char c_inserido;
+    char c_removido = 'a';
 
-    pvetcar = Insersor(ptammax);
+    for(int i = 0; i<ptammax; i++){
+        scanf("%c", &c_inserido);
+        Insersor(c_inserido, &pvetcar, &pqtde);
+        fflush(stdin);
+    }
 
-    printf("\n\ninicio da main\n\n");
-    for(int i=0; i<ptammax; i++)
-    {
+    for(int i = 0; i<pqtde; i++){
         printf("{ %c }\t", pvetcar[i]);
     }
 
-    pvetcar = Exclusor(pvetcar, ptammax);
+    /*Exclusor(c_removido, &pvetcar, &pqtde);
 
-    printf("\n\nParte do exclusor\n\n");
-    for(int i=0; i<ptammax; i++)
-    {
+    for(int i = 0; i<=pqtde; i++){
         printf("{ %c }\t", pvetcar[i]);
-    }
-
-    // libera os espaços de memória
-    //free(c_inserido);
-    free(pvetcar);
+    }*/
 }
+
+

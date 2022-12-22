@@ -1,15 +1,9 @@
-
-char Exclusor(char *pvetcar, int ptammax) {
-    char c_removido = "a";
-    int pqtde;
-
-    for(int i; i<ptammax; i++)
-    {
-            if(c_removido = pvetcar[i]){
-                pvetcar[i] = pvetcar[i+1];
-                break;
-            }
+/*
+void Exclusor(char c_removido, char *pvetcar, int *pqtde){
+    for(int i=0; i < *pqtde; i++) {
+        if(c_removido=(*pvetcar+i)){
+            printf("%c foi removido",c_removido);
+            (*pvetcar+i)= *pvetcar+1;
+        }
     }
-
-    return pvetcar;
-}
+}*/

@@ -43,6 +43,9 @@
 		<Unit filename="3.b_Exclusor.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="3_pvetcar.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
